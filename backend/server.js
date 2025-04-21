@@ -78,10 +78,10 @@ app.use("/api/v1/quiz",quizRoutes);
 app.use("/api/v1/rewards",rewardRoute);
 
 if(process.env.NODE_ENV === "production") {
-        app.use(express.static(path.join(__dirname, "/studybuddy/dist")));
+        app.use(express.static(path.join(__dirname, "/studybuddy/build")));
 
         app.get("*",(req,res)=>{
-            res.sendFile(path.resolve(__dirname, "studybuddy", "dist", "index.html"));
+            res.sendFile(path.resolve(__dirname, "studybuddy", "build", "index.html"));
         })
     }
 
