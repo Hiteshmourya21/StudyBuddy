@@ -1,0 +1,24 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+  color: #FF4500;
+}
+

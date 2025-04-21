@@ -1,0 +1,129 @@
+.container {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.banner {
+  height: 8rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.editButton {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+.profileImageWrapper {
+  position: relative;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+}
+
+.profileImage {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+  border: 4px solid white;
+  margin: 0 auto;
+}
+
+.inputText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.inputSubtext {
+  color: #4B5563;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4B5563;
+}
+
+.locationIcon {
+  margin-right: 0.25rem;
+}
+
+.saveButton {
+  background-color: #3B82F6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.saveButton:hover {
+  background-color: #2563EB;
+}
+
+.buttonEditProfile {
+  background-color: #E5E7EB;
+  color: #374151;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.buttonEditProfile:hover {
+  background-color: #D1D5DB;
+}
+
+.buttonBase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.buttonPrimary {
+  background-color: #3B82F6;
+  color: white;
+}
+
+.buttonPrimary:hover {
+  background-color: #2563EB;
+}
+
+.buttonSecondary {
+  background-color: #E5E7EB;
+  color: #374151;
+}
+
+.buttonSecondary:hover {
+  background-color: #D1D5DB;
+}
+
+.buttonSuccess {
+  background-color: #10B981;
+  color: white;
+}
+
+.buttonSuccess:hover {
+  background-color: #059669;
+}
+
+.buttonWarning {
+  background-color: #F59E0B;
+  color: white;
+}
+
+.buttonWarning:hover {
+  background-color: #D97706;
+}
+

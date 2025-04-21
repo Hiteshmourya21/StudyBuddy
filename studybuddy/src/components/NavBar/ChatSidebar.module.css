@@ -1,0 +1,52 @@
+.chatSidebarContainer {
+    width: 300px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.searchBar {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.sectionTitle {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userItem {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.userItem:hover {
+    background: #f0f0f0;
+}
+
+.userImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
